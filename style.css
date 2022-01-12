@@ -1,0 +1,50 @@
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@300&family=Ubuntu:wght@300;400;500&family=Work+Sans:wght@300;400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif; */
+    font-weight: 600;
+    background-color: #F3F1FF;
+}
+
+/* player section style */ 
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid lightgray;
+
+
+}
+.section-title{
+    color:#562eff;
+    font-size: 24px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.section-heading{
+    margin-left: 16px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 570px;
+    padding: 33px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
